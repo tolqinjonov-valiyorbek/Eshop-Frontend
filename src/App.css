@@ -125,6 +125,7 @@ a {
 }
 /*==============HEADER END=============*/
 
+
 /*================FOOTER START================*/
 .footer {
   background-color:black;
@@ -141,8 +142,8 @@ footer .input-group-text {
 
 /*================Home Page================*/
 .main-banner-content {
-  top: 15%;
-  left: 5%;
+  top: -1%;
+  left: 1%;
 }
 
 swiper-slide {
@@ -268,43 +269,7 @@ swiper-slide {
 /*=================categories section end==============*/
 /*================Home Page end================*/
 
-/*======================Blog Part===================*/
-.blog-card {
-  background-color:white;
-  padding: 20px;
-  border-radius: 10px;
-}
 
-.blog-card img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.blog-content {
-  padding: 15px;
-}
-
-.blog-content .date {
-  font-size: 13px;
-  line-height: 24px;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  font-weight: 400;
-  color:#777777;
-  padding: 0;
-}
-
-.blog-content h5 {
-  font-size: 18px;
-  color:var(--color-131921);
-}
-
-.blog-content .desc {
-  font-size: 13px;
-  line-height: 22px;
-  color:#777777;
-}
-/*======================Blog Part end===================*/
 
 /*====================Product Card======================*/
 
@@ -317,7 +282,7 @@ swiper-slide {
 }
 
 .product-card .product-image {
-  height: 270px;
+  height: 240px;
 }
 
 .product-card .product-image img {
@@ -768,13 +733,62 @@ swiper-slide {
 }
 
 
+@media only screen and (max-width:1200px){
+  .home-wrapper-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .home-wrapper-1 .main-banner-content h4 {
+    display:flex;
+    flex-wrap: wrap;
+    font-size: .7rem;
+    line-height: 12px;
+    margin: 0 0 6px;
+  }
+   
+  .home-wrapper-1 .main-banner-content h5 {
+    font-size: 35px;
+  }
+
+  .small-banner-content {
+    top: 9%;
+    left: 4%;
+  }
+}
+
 @media only screen and (max-width:992px){
   .home-wrapper-1 {
     display: flex;
     flex-wrap: wrap;
+
+  }
+  .home-wrapper-1 .main-banner-content h4 {
+    display:flex;
+    flex-wrap: wrap;
+    font-size: .5rem;
+    line-height: 8px;
+    margin: 0 0 3px;
+  }
+   
+  .home-wrapper-1 .main-banner-content h5 {
+    font-size: 28px;
   }
 
-  .featured-wrapper {
-    
+  .small-banner-content {
+    top: 5%;
+    left: 2%;
   }
+  .small-banner-content h4 {
+    font-size: 8px;
+    line-height: .7rem;
+  }
+
+  .small-banner-content p {
+    font-size: 14px;
+    display: none;
+  }
+   .popular-wrapper {
+    
+   }
 }

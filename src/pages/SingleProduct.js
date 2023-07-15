@@ -190,10 +190,10 @@ const SingleProduct = () => {
                   <p className="product-data">{productState?.tags}</p>
                 </div>
 
-                <div className="d-flex align-items-center gap-10 my-2">
+                {/* <div className="d-flex align-items-center gap-10 my-2">
                   <h3 className="product-heading">SKU</h3>
                   <p className="product-data">abs</p>
-                </div>
+                </div> */}
                 {alreadyAd === false && (
                   <>
                     <div className="d-flex flex-row gap-10 my-2">

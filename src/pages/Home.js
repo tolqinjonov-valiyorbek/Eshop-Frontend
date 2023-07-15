@@ -49,8 +49,8 @@ const Home = () => {
     <>
       <Container class1="home-wrapper-1 py-5">
         <div className="row flex-column-reverse flex-md-row text-center text-md-start">
-          <div className="col-6 col-md-6 ">
-            <div className="main-banner position-relative ">
+          <div className="col-6 col-md-6 gap-10">
+            <div className="main-banner-content   position-relative ">
               <img
                 className="img-fluid rounded-3"
                 src="images/ipad2.jpg"
@@ -154,7 +154,7 @@ const Home = () => {
      
 
   
-      <Container class1="popular-wrapper py-5 home-wrapper-2">
+      <Container class1="popular-wrapper py-5  home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading">
@@ -167,7 +167,7 @@ const Home = () => {
             productState?.map((item, index) => {
               const imageUrl = item?.images?.[0]?.url || "";
               return (
-                <div key={index} className={"col-3"}>
+                <div key={index} className={"col-3 py-3 col-md-auto"}>
                   <div className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                       <button className="border-0 bg-transparent" to=":id">

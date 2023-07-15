@@ -54,7 +54,7 @@ const OurStore = () => {
       <BreadCrumb title="Our Store" />
       <Container className="store-wrapper home-wrapper-2 py-5">
         <div className="row">
-          <div className="col-3">
+          <div className="col-3 ">
             <div className="filter-card mb-3">
               <h3 className="filter-title">Shop by Categories</h3>
               <div>
@@ -191,6 +191,7 @@ const OurStore = () => {
                 />
               </div>
             </div>
+            
           </div>
         </div>
       </Container>

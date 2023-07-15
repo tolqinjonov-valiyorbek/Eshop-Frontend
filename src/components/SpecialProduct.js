@@ -64,7 +64,7 @@ const SpecialProduct = (props) => {
               </div>
             </div>
 
-            <Link className="button" to={`/product/ _id` }>View</Link>
+            <Link className="button" to={`/product/` +  _id }>View</Link>
           </div>
         </div>
       </div>
